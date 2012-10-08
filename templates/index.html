@@ -14,7 +14,9 @@
 
 </head>
 <!-- background="w.png" bgProperties="fixed"  -->
-<body background="w.png" bgProperties="fixed" bgColor="gray">
+<!-- <body style="background: #c1dfed url(http://www.freegreatpicture.com/files/147/18429-hd-color-background-wallpaper.jpg)" style="background-repeat:no repeat">
+  -->
+<body name="mainBody" class="modal-body" background="/static/images/w.png" bgProperties="fixed">
 	<div class="navbar navbar-inverse navbar-fixed-top">
 		<div class="navbar-inner">
 			<div class="container">
@@ -28,8 +30,15 @@
 	</div>
 
 	<div class="container main">
+
 			<div class="offset2 span8">
-				<h4 class="title"></h4>
+				<!-- <div class="offset0 span3">
+					hi
+				</div>
+				</div> -->
+				<FONT color:"yellow">
+				<h4 class="title" id="title"></h4>
+				</FONT>
 				<div id="results" class="twitter-feed">
 					<ul id="tweets" class="unstyled tweets-result"/>
 				</div>
@@ -41,7 +50,7 @@
 
  	<script type="text/html" id="tweet-view">
  		<li class="tweet-item">
-		 	<%= text %> - <%= created_at %> 
+		 	<%= text %> - <%= created_at %>
 	 	</li>
     </script>
 
