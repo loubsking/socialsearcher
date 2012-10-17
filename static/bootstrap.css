@@ -135,10 +135,8 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  color: yellow;
-  background-image: 'w.png';
-  background-color: gray;
- 
+  color: #333333;
+  background-color: #ffffff;
 }
 a {
   color: #0088cc;
@@ -345,9 +343,9 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-family: arial;
+  font-family: inherit;
   font-weight: bold;
-  color: yellow;
+  color: inherit;
   text-rendering: optimizelegibility;
 }
 h1 small,
@@ -387,7 +385,6 @@ h6 {
 }
 h4 {
   font-size: 14px;
-  color: yellow;
 }
 h4 small {
   font-size: 12px;
@@ -3953,7 +3950,7 @@ a.thumbnail:hover {
 }
 .carousel-caption h4,
 .carousel-caption p {
-  color: yellow;
+  color: #ffffff;
 }
 .hero-unit {
   padding: 60px;
@@ -3967,7 +3964,7 @@ a.thumbnail:hover {
   margin-bottom: 0;
   font-size: 60px;
   line-height: 1;
-  color: yellow;
+  color: inherit;
   letter-spacing: -1px;
 }
 .hero-unit p {
@@ -3990,8 +3987,4 @@ a.thumbnail:hover {
 }
 .invisible {
   visibility: hidden;
-}
-.title
-{
-  color: yellow;
 }

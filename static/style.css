@@ -1,14 +1,18 @@
 .container.main {
 	position: relative;
 	top: 70px;
+	height: 500px;
 
+}
+.container.main .span8{
+	height: 500px;
+	overflow-y: auto;
 }
 
 #results { padding:35px 0; padding-bottom:250px; }
-	#results DIV.title { font-weight:bold; font-size:15px; color: yellow; }
+	#results DIV.title { font-weight:bold; font-size:15px; }
 	#results UL#tweets { position:relative; margin-left:-5px; }
-		#results UL#tweets LI { overflow:hidden; margin-bottom:10px; padding:5px 0 5px 5px; background-color: black; }
-
+		#results UL#tweets LI { overflow:hidden; margin-bottom:10px; padding:5px 0 5px 5px; background-color: black;}
 		#results UL#tweets LI:hover { background:url(images/bg1.gif); }
 			#results UL#tweets LI DIV.profile-pic { float:left; border:1px solid #e5e5e1; margin-right:8px; position:relative; }
 				#results UL#tweets LI DIV.profile-pic IMG { display:block; margin:1px;width:48px;height:48px; }
@@ -17,7 +21,7 @@
 				#results UL#tweets LI DIV.tweet-body DIV.twitter-name a {font-weight:bold; color:#0066cc; font-size:13px;text-decoration:none;}
 					#results UL#tweets LI DIV.tweet-body DIV.twitter-name SPAN { font-weight:normal; color:#8d8d8d; margin-bottom:5px; }
 				#results UL#tweets LI DIV.tweet-body DIV.tweet { color:#97FFFF; font-size:13px; margin-bottom:7px; }
-				#results UL#tweets LI DIV.tweet-body DIV.tweet a {color:#ffffff;text-decoration:underline}
+				#results UL#tweets LI DIV.tweet-body DIV.tweet a {color:#08C;text-decoration:underline}
 #results UL#tweets LI DIV.tweet-body DIV.actions { font-size:11px; }
 					#results UL#tweets LI DIV.tweet-body DIV.actions A { display:inline-block; color:#8d8d8d; text-decoration:none; }
 					#results UL#tweets LI DIV.tweet-body DIV.actions A:hover { opacity:.8; }
